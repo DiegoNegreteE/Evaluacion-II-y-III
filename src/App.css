@@ -1,0 +1,123 @@
+/* Elimina el límite de ancho del root */
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: initial;
+}
+
+/* Clase opcional para limitar ancho solo del contenido principal */
+.container-limited {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Logo animado */
+.logo {
+  height: 10em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Estilo de tarjetas */
+.card {
+  padding: 2em;
+}
+
+/* Clase de texto auxiliar */
+.read-the-docs {
+  color: #888;
+}
+
+/* Enlaces del navbar */
+.nav-link {
+  color: #00f0ff !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #ffffff !important;
+}
+/* Enlaces del navbar activos */
+
+/* en el archivo CSS global */
+.btn-turquoise {
+  background-color: #1de9b6;
+  color: white;
+  border: none;
+}
+.btn-turquoise:hover {
+  background-color: #00bfa5;
+  color: white;
+}
+
+/* Cambiar el color de fondo del navbar */
+.navbar {
+  background-color: #030f1b !important; /* Azul oscuro */
+}
+
+/* Para que el texto siga contrastando bien */
+.navbar .nav-link {
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  color: #00e6e6 !important; /* Turquesa brillante al pasar el mouse */
+}
+/* Cambiar el color de fondo del navbar al hacer scroll */
+
+/* Color turquesa brillante para el título TECHHOME */
+.brand-text {
+  color: #00e6e6 !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Cambiar el color de fondo del footer */
+.footer {
+  background-color: #030f1b; /* Azul oscuro como el navbar */
+  color: white;
+  padding: 1rem 0;
+}
+
+/* Opcional: mejorar el contraste del texto en el footer */
+.footer a {
+  color: #00e6e6;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.titulo-contacto {
+  color: #021f3b; /* Título de contacto, mismo azul oscuro que el navbar... */
+}
+
+.contact-location-title {
+  color: #0a0f1c; /* Azul oscuro */
+}
